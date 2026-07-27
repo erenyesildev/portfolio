@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Galatasaray Parçalı Forma Renkleri -->
+    <linearGradient id="gs-parcali" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="50%" stop-color="#FDB912" /> <!-- Sarı -->
+      <stop offset="50%" stop-color="#A90432" /> <!-- Kırmızı -->
+    </linearGradient>
+  </defs>
+
+  <!-- Forma Silueti -->
+  <path d="M 35 10 
+           C 40 25, 60 25, 65 10 
+           L 90 20 
+           L 90 40 
+           L 75 35 
+           L 75 95 
+           L 25 95 
+           L 25 35 
+           L 10 40 
+           L 10 20 
+           Z" 
+        fill="url(#gs-parcali)" stroke="#111" stroke-width="2" />
+        
+  <!-- Yaka Çizgisi -->
+  <path d="M 35 10 C 40 25, 60 25, 65 10" fill="none" stroke="#111" stroke-width="3" />
+
+  <!-- İsim: ICARDI -->
+  <text x="50" y="38" font-family="Arial, sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5" stroke="#000" stroke-width="0.5">ICARDI</text>
+  
+  <!-- Numara: 9 -->
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="#ffffff" text-anchor="middle" stroke="#000" stroke-width="2">9</text>
+</svg>

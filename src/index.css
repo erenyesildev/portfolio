@@ -1,0 +1,75 @@
+:root {
+  --bg: #050505;
+  --bg-alt: #0a0a0a;
+  --surface: rgba(255, 255, 255, 0.03);
+  --surface-border: rgba(255, 255, 255, 0.06);
+  --text: #ffffff;
+  --text-dim: #a1a1aa;
+
+  --accent-1: #00f0ff;
+  --accent-2: #7000ff;
+  --accent-3: #ff003c;
+  --accent-4: #00ff66;
+
+  --gradient-hero: radial-gradient(
+      60% 60% at 20% 20%,
+      rgba(0, 240, 255, 0.15),
+      transparent 60%
+    ),
+    radial-gradient(50% 50% at 85% 15%, rgba(112, 0, 255, 0.15), transparent 60%),
+    radial-gradient(60% 60% at 75% 85%, rgba(0, 255, 102, 0.1), transparent 60%);
+
+  --gradient-text: linear-gradient(
+    90deg,
+    var(--accent-1),
+    var(--accent-2)
+  );
+
+  --radius: 12px;
+  font-family: "Outfit", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+.mono {
+  font-family: "Fira Code", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
