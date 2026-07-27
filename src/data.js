@@ -4,10 +4,10 @@ export const data = {
       name: "Eren Yeşildağ",
       title: "Product Engineer",
       tagline:
-        "Agent'lar ve otomasyonlar tasarlıyor, geliştiriyorum. Yeni tekolojileri araştırmayı ve öğrenmeyi ve ürün hedefli çalışmayı seviyorum.",
-      bio: `Ben Sabri Eren Yeşildağ. Yeni teknolojilere meraklı ve öğrenmeyi seven bir yazılım geliştiriciyim.
-        Otomasyon ve AI odaklı çözümler üretmeye odaklanıyorum. Yeni araçları hızlıca
-        öğrenip prototipe dönüştürmeyi seviyorum.`,
+        "Agent'lar ve otomasyonlar tasarlayıp geliştiriyorum. Yeni teknolojileri araştırmayı, öğrenmeyi ve ürün odaklı çalışmayı seviyorum.",
+      bio: `Ben Sabri Eren Yeşildağ. Yeni teknolojilere meraklı ve sürekli öğrenmeyi seven bir yazılım geliştiriciyim.
+        Otomasyon ve yapay zeka alanında çözümler geliştirmeye odaklanıyorum. Yeni araçları hızlıca
+        öğrenip prototipe dönüştürmekten keyif alıyorum.`,
       location: "Türkiye",
       email: "sabrierenyesildag@gmail.com",
       github: "https://github.com/erenyesildev",
@@ -16,7 +16,7 @@ export const data = {
       avatarInitials: "EY",
     },
     skills: [
-      "ASP.Net core",
+      "ASP.NET Core",
       "Entity Framework",
       "LLM Agent Mimarisi",
       "Python",
@@ -62,7 +62,7 @@ export const data = {
         company: "Yıldız Entegre",
         period: "Temmuz 2026 — Günümüz",
         description:
-          "Siber Güvenlik alanındaki mevcut süreçler için otomasyon ve izleme sistemleri üzerine projeler yapıyorum.",
+          "Siber güvenlik alanındaki mevcut süreçler için otomasyon ve izleme sistemleri üzerine projeler geliştiriyorum.",
       },
       {
         role: "Yazılım Mühendisi Stajyeri",
@@ -97,7 +97,7 @@ export const data = {
       avatarInitials: "EY",
     },
     skills: [
-      "ASP.Net core",
+      "ASP.NET Core",
       "Entity Framework",
       "LLM Agent Architecture",
       "Python",
@@ -143,7 +143,7 @@ export const data = {
         company: "Yıldız Entegre",
         period: "July 2026 — Present",
         description:
-          "Working on projects related to automation and monitoring systems for current processes in the Cybersecurity domain.",
+          "Working on projects related to automation and monitoring systems for current processes in the cybersecurity domain.",
       },
       {
         role: "Software Engineer Intern",
