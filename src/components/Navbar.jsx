@@ -20,13 +20,13 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 100, damping: 20 }}
     >
-      <a href="#top" className="navbar__brand mono" style={{ display: 'flex', alignItems: 'center', gap: '4px'}}>
-        <span style={{color: 'var(--accent-4)'}}>&lt;</span>
+      <a href="#top" className="navbar__brand mono">
+        <span className="navbar__brand-tag">&lt;</span>
         {profile.name.split(' ')[0]}
-        <span style={{color: 'var(--accent-4)'}}>/&gt;</span>
+        <span className="navbar__brand-tag">/&gt;</span>
       </a>
       
-      <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
+      <div className="navbar__menu">
         <nav className="navbar__links">
           {links.map((l) => (
             <motion.a 
