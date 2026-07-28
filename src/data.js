@@ -39,14 +39,14 @@ export const data = {
         description:
           "Clean Architecture prensipleri ile CQRS ve Mediator desenleri üzerine kurulu, ölçeklenebilir ve çok kiracılı (multi-tenant) bir SaaS CRM platformu. Backend'de .NET 8 ve EF Core Global Query Filters ile güvenli veri izolasyonu sağlanırken, frontend'de React, TypeScript, TanStack Query ve Zustand ile performans odaklı modern bir arayüz kuruldu. SignalR ile gerçek zamanlı iletişim, Identity/JWT/RBAC ile kurumsal düzeyde güvenlik uygulandı.",
         tags: [".NET 8", "React", "TypeScript", "PostgreSQL", "SignalR", "CQRS"],
-        link: "https://github.com/erenyesildev/dago-crm",
+        link: "https://github.com/erenyesildev/DagoCRM",
       },
       {
         title: "Multiplayer Kelime Oyunu",
         description:
           "İki oyunculu, 15x15 tahtada oynanan, Türkçe kelimelere dayalı gerçek zamanlı bir mobil kelime oyunu. Oyuncular sırayla harf yerleştirerek anlamlı kelimeler oluşturur, ödül toplar ve mayınlardan kaçınır; her hamle SignalR ile anlık olarak diğer oyuncuya iletilir. Backend servisi ve veritabanı bulut sunucusunda production ortamına taşınarak Flutter uygulamasıyla entegre edildi.",
         tags: ["Flutter", "Dart", "ASP.NET Core", "SignalR", "PostgreSQL", "JWT"],
-        link: "https://github.com/erenyesildev/multiplayer-kelime-oyunu",
+        link: "https://github.com/erenyesildev/kelime-avcisi",
       },
       {
         title: "Akademik Makale Anonimleştirme ve Değerlendirme Sistemi",
@@ -120,14 +120,14 @@ export const data = {
         description:
           "A scalable and multi-tenant SaaS CRM platform built on Clean Architecture principles, utilizing CQRS and Mediator patterns. The backend uses .NET 8 and EF Core Global Query Filters for secure data isolation, while the frontend provides a performance-oriented modern interface with React, TypeScript, TanStack Query, and Zustand. Real-time communication is handled by SignalR, and enterprise-level security is enforced via Identity/JWT/RBAC.",
         tags: [".NET 8", "React", "TypeScript", "PostgreSQL", "SignalR", "CQRS"],
-        link: "https://github.com/erenyesildev/dago-crm",
+        link: "https://github.com/erenyesildev/DagoCRM",
       },
       {
         title: "Multiplayer Word Game",
         description:
           "A two-player, real-time mobile word game played on a 15x15 board based on Turkish words. Players take turns placing letters to form meaningful words, collect rewards, and avoid mines; every move is instantly transmitted to the other player via SignalR. The backend service and database were deployed to a cloud production environment and integrated with a Flutter app.",
         tags: ["Flutter", "Dart", "ASP.NET Core", "SignalR", "PostgreSQL", "JWT"],
-        link: "https://github.com/erenyesildev/multiplayer-kelime-oyunu",
+        link: "https://github.com/erenyesildev/kelime-avcisi",
       },
       {
         title: "Academic Article Anonymization & Evaluation System",
