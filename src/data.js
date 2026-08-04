@@ -59,7 +59,7 @@ export const data = {
     experience: [
       {
         role: "BT Stajyeri",
-        company: "Yıldız Entegre",
+        company: "Yıldızlar Yatırım Holding",
         period: "Temmuz 2026 — Günümüz",
         description:
           "Siber güvenlik alanındaki mevcut süreçler için otomasyon ve izleme sistemleri üzerine projeler geliştiriyorum.",
@@ -140,7 +140,7 @@ export const data = {
     experience: [
       {
         role: "IT Intern",
-        company: "Yıldız Entegre",
+        company: "Yıldızlar Yatırım Holding",
         period: "July 2026 — Present",
         description:
           "Working on projects related to automation and monitoring systems for current processes in the cybersecurity domain.",
