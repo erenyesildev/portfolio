@@ -62,8 +62,8 @@ export default function Resume() {
               <Briefcase size={20} /> {t('resume', 'experience')}
             </h3>
             <ul className="timeline">
-              {experience.map((e) => (
-                <motion.li variants={itemVariants} key={e.role + e.company} className="timeline__item">
+              {experience.map((e, i) => (
+                <motion.li variants={itemVariants} key={i} className="timeline__item">
                   <div className="timeline__dot" aria-hidden="true" style={{ background: 'var(--accent-1)', boxShadow: '0 0 10px var(--accent-1)' }} />
                   <div>
                     <p className="timeline__period mono" style={{ color: 'var(--accent-4)' }}>{e.period}</p>
@@ -86,8 +86,8 @@ export default function Resume() {
               <GraduationCap size={20} /> {t('resume', 'education')}
             </h3>
             <ul className="timeline">
-              {education.map((ed) => (
-                <motion.li variants={itemVariants} key={ed.school} className="timeline__item">
+              {education.map((ed, i) => (
+                <motion.li variants={itemVariants} key={i} className="timeline__item">
                   <div className="timeline__dot" aria-hidden="true" style={{ background: 'var(--accent-2)', boxShadow: '0 0 10px var(--accent-2)' }} />
                   <div>
                     <p className="timeline__period mono" style={{ color: 'var(--accent-4)' }}>{ed.period}</p>

@@ -52,7 +52,7 @@ export default function Projects() {
         >
           {projects.map((p, i) => (
             <motion.a
-              key={p.title}
+              key={i}
               href={p.link}
               target="_blank"
               rel="noreferrer"
